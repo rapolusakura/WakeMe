@@ -18,16 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KNl-kg-Znw">
-                                <rect key="frame" x="0.0" y="71" width="375" height="612"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KNl-kg-Znw">
+                                <rect key="frame" x="15" y="35" width="345" height="617"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KNl-kg-Znw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="8CW-bD-LHl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KNl-kg-Znw" secondAttribute="bottom" constant="15" id="joZ-Wd-vfc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KNl-kg-Znw" secondAttribute="trailing" constant="15" id="px7-oW-6eL"/>
+                            <constraint firstItem="KNl-kg-Znw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="rBe-Ln-Z1L"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="KNl-kg-Znw" id="miR-Fk-Cw9"/>
+                        <outlet property="mapView" destination="KNl-kg-Znw" id="n5W-F8-Ntv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
