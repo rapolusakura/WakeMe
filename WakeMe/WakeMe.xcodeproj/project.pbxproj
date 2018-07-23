@@ -13,6 +13,7 @@
 		44C7C7CF2106670200A1DEFB /* WakeMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C7CD2106670200A1DEFB /* WakeMe.xcdatamodeld */; };
 		44C7C7D12106670300A1DEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C7C7D02106670300A1DEFB /* Assets.xcassets */; };
 		44C7C7D42106670300A1DEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C7C7D22106670300A1DEFB /* LaunchScreen.storyboard */; };
+		44C7C7DD21068B8000A1DEFB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C7C7DC21068B8000A1DEFB /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		44C7C7D02106670300A1DEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C7C7D32106670300A1DEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C7C7D52106670300A1DEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C7C7DC21068B8000A1DEFB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		44C7C7C52106670200A1DEFB /* WakeMe */ = {
 			isa = PBXGroup;
 			children = (
+				44C7C7DB21068B7200A1DEFB /* Views */,
 				44C7C7C62106670200A1DEFB /* AppDelegate.swift */,
 				44C7C7C82106670200A1DEFB /* ViewController.swift */,
 				44C7C7CA2106670200A1DEFB /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				44C7C7CD2106670200A1DEFB /* WakeMe.xcdatamodeld */,
 			);
 			path = WakeMe;
+			sourceTree = "<group>";
+		};
+		44C7C7DB21068B7200A1DEFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44C7C7DC21068B8000A1DEFB /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C7C7C92106670200A1DEFB /* ViewController.swift in Sources */,
+				44C7C7DD21068B8000A1DEFB /* MapView.swift in Sources */,
 				44C7C7CF2106670200A1DEFB /* WakeMe.xcdatamodeld in Sources */,
 				44C7C7C72106670200A1DEFB /* AppDelegate.swift in Sources */,
 			);
